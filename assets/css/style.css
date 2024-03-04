@@ -1,0 +1,508 @@
+/*   Theme default css */
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap'); */
+/* ======font family=========
+font-family: 'Inter', sans-serif;
+*/
+
+:root{
+
+  --thmColor: 000;
+  --textColor: fff;
+
+  --f18 : 18px;
+  --f20 : 20px;
+  --f22 : 22px;
+  --f24 : 24px;
+  --f28 : 28px;
+  --f30 : 30px;
+  --f32 : 32px;
+  --f36 : 36px;
+  --f40 : 40px;
+  --f48 : 48px;
+
+}
+
+
+body {
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  /* background: #10172A; */
+  color: #ffff;
+  font-family: 'Inter', sans-serif;
+}
+
+.bg-shape {
+    position: absolute;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+img{
+  max-width: 100%;
+}
+  
+button {
+  cursor: pointer; 
+  border: none;
+  padding: 0;
+  background: none;
+}
+
+a:focus,
+button:focus {
+  text-decoration: none;
+  outline: none; }
+
+a:focus,
+a:hover {
+  text-decoration: none; }
+
+a,
+button {
+  color: inherit;
+  outline: medium none; 
+  text-decoration: none;
+}
+
+button:focus, input:focus, input:focus, textarea, textarea:focus {
+  outline: 0; }
+
+ 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0px; 
+  font-weight: 700;
+ }
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: inherit; }
+
+h1 {
+  font-size: 40px; }
+
+h2 {
+  font-size: 35px; }
+
+h3 {
+  font-size: 28px; }
+
+h4 {
+  font-size: 22px; }
+
+h5 {
+  font-size: 18px; }
+
+h6 {
+  font-size: 16px; }
+
+ul {
+  margin: 0px;
+  padding: 0px; }
+
+li {
+  list-style: none; }
+
+
+/* default-css END 
+================================== */
+ 
+.header-area {padding: 20px 0 0;}
+
+.header-area hr {
+    margin-bottom: 0;
+    margin-top: 20px;
+    opacity: 1;
+    background: rgba(255, 255, 255, 0.12);
+}
+.container {
+  max-width: 1200px;
+}
+.logo-area {position: relative;z-index: 999;height: 50px;display: flex;align-items: center;}
+.social-link ul {justify-content: end;display: flex;gap: 10px;}
+
+
+/* Header section END */
+
+
+/*============ Area Start =============*/
+
+.hero-area {
+}
+.Ellipse__img {
+}
+
+.Ellipse__img i {
+    position: absolute;
+    display: block;
+}
+
+.Ellipse__img img {
+    position: absolute;
+}
+.Ellipse-1 {top: 20px;left: 200px;width: 169px;height: 169px;background: #343456;opacity: 0.5;filter: blur(137px);}
+.Ellipse-2 {top: -70px;left: 60%;z-index: 9;width: 237px;height: 237px;filter: blur(92px);background: #C3D1FC;opacity: .2;}
+.Ellipse-3 {
+    background: #C3D1FC;
+    opacity: 0.19;
+    filter: blur(97px);
+    width: 220px;
+    height: 220px;
+    flex-shrink: 0;
+    top: 230px;
+    right: 13%;
+}
+.hero-area .container {
+    height: calc(100vh - 91px);
+    display: flex;
+    align-items: center;
+    max-width: 1300px;
+    padding-left: 63px;
+}
+.col-lg-6 {
+}
+.hero__content {
+}
+
+.hero__content p {
+    color: #92A2B5;
+    font-size: var(--f20);
+    font-weight: 500;
+    max-width: 460px;
+    line-height: 1.2;
+}
+
+.hero__content h1 {
+    font-size: 57.162px;
+    margin: 10px 0 20px;
+}
+
+.hero__content h5 {
+    font-weight: 600;
+}
+.newletter-wrp {padding: var(--f36);background: rgba(232, 242, 255, 0.06);max-width: 430px;margin-left: auto;}
+.newletter__content {border: 1px solid rgba(255, 255, 255, 0.22);padding: var(--f28) var(--f30);padding-bottom: var(--f40);}
+
+.newletter__content button {
+    padding: 8px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 46px;
+    border-radius: 5px;
+    /* background: #343456; */
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.newletter__content input {
+    border-radius: 5px;
+    border: 1px solid #DFE4F1;
+    background: #FFF;
+    height: 47px;
+    width: 100%;
+    padding: 10px 16px;
+    margin-bottom: 12px;
+}
+
+.newletter__content input::placeholder {
+    letter-spacing: -0.24px;
+    color: rgb(100 96 125 / 39%);
+    font-style: italic;
+    font-size: 14px;
+}
+
+.newletter__content p {
+    color: rgba(255, 255, 255, 0.54);
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.newletter__content h4 {
+    font-weight: 600;
+    letter-spacing: -0.44px;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+.EdutechBuzz{
+    background: #0E0E19;
+}
+
+.EdutechBuzz .hero__content h1{
+    background: radial-gradient( 45deg, #343456 0%, #C3D1FC 100%);
+    background: linear-gradient(222deg, #343456 0%, #C3D1FC 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.EdutechBuzz .newletter__content button{
+    background: #343456;
+}
+/* =================EdutechBuzz End========================= */
+.XtechBuzz{
+    background: #010D1A;
+}
+.XtechBuzz .hero__content h1{
+    background: linear-gradient(320deg, #036 0%, #C3D1FC 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* background: linear-gradient(45deg, black, transparent); */
+}
+.XtechBuzz .newletter__content button{
+    background: #003366;
+}
+/* =================XtechBuzz End========================= */
+.RetailtechBuzz{
+    background: #0E0404;
+}
+
+body.RetailtechBuzz .Ellipse__img i {
+    background: #7C2F2F;
+    opacity: .25;
+}
+.RetailtechBuzz .hero__content h1{
+    background: linear-gradient(to left, #7C2F2F 0%, #FFC9C9 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.RetailtechBuzz .newletter__content button{
+    background: #7C2F2F;
+}
+/* =================RetailtechBuzz End========================= */
+.ClimatetechBuzz{
+    background: #120D05;
+}
+
+.ClimatetechBuzz .Ellipse-2,.ClimatetechBuzz .Ellipse-3,.ClimatetechBuzz .Ellipse-1 {
+    background: #FFA804;
+    opacity: .15;
+}
+.ClimatetechBuzz .hero__content h1{
+    background: linear-gradient(260deg,#FFA804 0%, #FFC9C9 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.ClimatetechBuzz .newletter__content button{
+    background: #FFA804;
+}
+/* =================ClimatetechBuzz End========================= */
+.InsurancetechBuzz{
+    background: #100408;
+}
+
+.InsurancetechBuzz .Ellipse__img i {
+    background: #C4395E;
+}
+.InsurancetechBuzz .hero__content h1{
+    background: linear-gradient(to left, #C4395E 0%, #FFC9C9 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.InsurancetechBuzz .newletter__content button{
+    background: #C4395E;
+}
+/* =================InsurancetechBuzz End========================= */
+.HealthtechBuzz{
+    background: #070C02;
+}
+
+body.HealthtechBuzz .Ellipse__img i {
+    background: #78C435;
+    opacity: .15;
+}
+.HealthtechBuzz .hero__content h1{
+    background: linear-gradient(to left, #78C435 0%, #ECFFDB 85%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.HealthtechBuzz .newletter__content button{
+    background: #78C435;
+}
+/* =================HealthtechBuzz End========================= */
+.HRtechBuzz{
+    background: #0E0404;
+}
+
+body.HRtechBuzz .Ellipse__img i {
+    background: #BF4040;
+    opacity: .19;
+}
+.HRtechBuzz .hero__content h1{
+    background: linear-gradient(to left, #C4395E 0%, #FFC9C9 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.HRtechBuzz .newletter__content button{
+    background: #BF4040;
+}
+/* =================HRtechBuzz End========================= */
+.FintechBuzz{
+    background: #0E0715;
+}
+.FintechBuzz .hero__content h1{
+    background: linear-gradient(to left, #96C 20%, #EBD7FF 74%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.FintechBuzz .newletter__content button{
+    background: #9966CC;
+}
+/* =================FintechBuzz End========================= */
+.PropTechBuzz{
+    background: #10172A;
+}
+.PropTechBuzz .hero__content h1{
+    background: linear-gradient(to left, #55C1F9 9%, #C3D1FC 70%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.PropTechBuzz .newletter__content button{
+    background: #005EFF;
+}
+/* =================PropTechBuzz End========================= */
+
+
+
+/*============ Area End =============*/
+
+
+/*============ Area Start =============*/
+
+/*============ Area End =============*/
+
+
+
+
+
+
+
+
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+  .hero-area .row {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.newletter-wrp {
+    margin: auto;
+}
+
+.hero__content {
+    text-align: center;
+}
+
+.hero__content p {
+    margin: auto;
+}
+
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+
+  .hero-area .row {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: auto !important;
+}
+
+.newletter-wrp {
+    margin: auto;
+    width: 90%;
+    padding: 24px;
+    margin-top: 30px;
+}
+
+.newletter__content {
+    padding: 20px 25px 30px;
+}
+
+.hero__content {
+    text-align: center;
+}
+
+.hero__content p {
+    margin: auto;
+    font-size: 16px;
+    max-width: 300px;
+}
+.hero-area .container {
+  height: auto;
+  display: unset;
+  padding: 0 20px;
+  max-width: 100%;
+}
+.hero__content h1 {
+  font-size: 36px;
+  margin-bottom: 13px;
+}
+
+.hero__content h5 {
+    font-size: 15px;
+}
+.Ellipse__img {
+  display: none;
+}
+.newletter__content h4 {
+  font-size: 20px;
+}
+
+.newletter__content input {
+  height: 43px;
+}
+
+.newletter__content button {
+  height: 42px;
+}
+
+
+}
+ 
